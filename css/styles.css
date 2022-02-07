@@ -11409,16 +11409,26 @@ p {
     margin-right: 0;
   }
 }
+@media (max-width: 576px){
+  .date1{
+    margin-top: 30vw;
+    font-size: 4.3vw;
+  }
+  .date2{
+    font-size: 4.3vw;
+  }
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header.jpeg"); 
+  background-image: url("../assets/img/headerf.jpeg"); 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
