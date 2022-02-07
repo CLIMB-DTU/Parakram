@@ -11411,7 +11411,11 @@ p {
 }
 @media (max-width: 576px){
   .date1{
-    margin-top: 150px;
+    margin-top: 30vw;
+    font-size: 4.3vw;
+  }
+  .date2{
+    font-size: 4.3vw;
   }
 }
 
