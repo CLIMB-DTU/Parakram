@@ -11815,7 +11815,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-right: auto;
 }
 
-@media (max-width: 990px and min-width: 575px )
+@media (max-width: 990px) and (min-width: 575px )
 {
   .small-img{
   height: 32vw;
@@ -11824,7 +11824,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
-@media (max-width: 575px and min-width: 449px )
+@media (max-width: 575px) and (min-width: 449px )
 {
   .small-img{
   height: 53vw;
@@ -11840,3 +11840,38 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 }
+
+  @media only screen and (max-width: 600px) {
+    .abt-img {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .abt-text {
+      width: 100%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .clm-img {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .clm-text {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .img-logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
